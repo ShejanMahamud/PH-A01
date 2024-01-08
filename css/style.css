@@ -15,7 +15,7 @@ body {
   height: 600px;
   margin: 50px auto 100px auto;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(./images/Banner\ Image.png);
+    url(../images/Banner-Image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,7 @@ body {
   height: auto;
   margin: 100px auto;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(./images/celebration.png);
+    url(../images/celebration.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
