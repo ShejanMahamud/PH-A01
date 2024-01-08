@@ -39,6 +39,7 @@ body {
   color: #ffffff;
   font-size: 32px;
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 /* New Year Section */
@@ -120,6 +121,7 @@ body {
   border-radius: 6px;
   font-family: "Inter";
   font-weight: 700;
+  text-transform: uppercase;
 }
 .join-party-btn:hover {
   background-color: white;
@@ -159,8 +161,8 @@ body {
 }
 .event-details-btn {
   border-radius: 8px;
+  border: 1px solid red;
   background: #f00;
-  border: none;
   padding: 12px 16px;
   color: #fff;
   font-family: "Inter";
