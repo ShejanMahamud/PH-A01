@@ -54,7 +54,7 @@ body {
 .new-year-offer {
   color: #f00;
   font-family: "Inter";
-  font-size: 72px;
+  font-size: 76px;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -405,24 +405,27 @@ body {
   display: flex;
   align-items: center;
 }
+
 .email-section > input[type="email"] {
   border-radius: 50px 0px 0px 50px;
-  padding: 25px 35px;
+  padding: 20px 30px;
   width: 100%;
   border: none;
   outline: none;
   font-size: 16px;
 }
+
 .email-btn {
-  padding: 25px 50px;
+  padding: 19px 50px;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   border: none;
   color: #fff;
   font-family: "Inter";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
+
 .footer-section {
   width: 100%;
   background: #070211;
