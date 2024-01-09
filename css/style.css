@@ -12,7 +12,7 @@ body {
 /* First Section Start */
 .first-banner {
   width: 90%;
-  height: 600px;
+  height: 550px;
   margin: 50px auto 100px auto;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../images/Banner-Image.png);
@@ -55,7 +55,7 @@ body {
 .new-year-offer {
   color: #f00;
   font-family: "Inter";
-  font-size: 76px;
+  font-size: 72px;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -78,7 +78,7 @@ body {
 /* Join Party Section */
 .join-party {
   width: 90%;
-  height: auto;
+  height: 550px;
   margin: 100px auto;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../images/celebration.png);
@@ -89,6 +89,7 @@ body {
   border-radius: 13px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 50px;
   padding: 50px 80px;
 }
@@ -114,18 +115,19 @@ body {
   height: 400px;
 }
 .join-party-btn {
-  background: none;
-  color: rgb(255, 255, 255);
-  border: 1px white solid;
+  border-radius: 8px;
+  border: 1px solid red;
+  background: #f00;
   padding: 12px 16px;
-  border-radius: 6px;
+  color: #fff;
   font-family: "Inter";
   font-weight: 700;
   text-transform: uppercase;
 }
 .join-party-btn:hover {
-  background-color: white;
-  color: black;
+  border: 1px solid #f00;
+  background: none;
+  color: #f00;
 }
 /* Event Details Section */
 .event-details {
@@ -359,8 +361,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   margin-bottom: 10px;
 }
 .image-div:hover > img {
